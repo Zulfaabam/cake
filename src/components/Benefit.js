@@ -5,7 +5,7 @@ import BenefitItem from './BenefitItem'
 
 export default function Benefit() {
   return (
-    <section className="bg-white px-4 py-20 xl:py-28" id="benefit">
+    <section className="bg-white px-4 py-20 xl:py-28" id="benefits">
       <div className="text-center space-y-6">
         <SectionTitle content="Why choose us?" />
         <p className="text-grey text-sm md:text-base lg:text-xl max-w-[720px] mx-auto">

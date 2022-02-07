@@ -51,3 +51,16 @@ export const productItems = [
     price: 'IDR 234.000',
   },
 ]
+
+export const testimonials = [
+  {
+    customer: 'Bagaskara',
+    comment:
+      '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, eu egestas ac vitae et consequat. Condimentum felis neque arcu scelerisque. Malesuada tortor lorem elementum proin eu amet, imperdiet nibh fusce. Quis tincidunt lectus sit massa integer quis tortor tempor.”',
+  },
+  {
+    customer: 'Bagaskara2',
+    comment:
+      '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, eu egestas ac vitae et consequat. Condimentum felis neque arcu scelerisque. Malesuada tortor lorem elementum proin eu amet, imperdiet nibh fusce. Quis tincidunt lectus sit massa integer quis tortor tempor.”',
+  },
+]

@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from './components/Navbar'
 import Benefit from './components/Benefit'
 import BuyNow from './components/BuyNow'
 import Footer from './components/Footer'
@@ -9,6 +10,7 @@ import Testimonials from './components/Testimonials'
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Hero />
       <Benefit />
       <ProductCategory />

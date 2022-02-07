@@ -19,10 +19,10 @@ export default function Navbar() {
           <a href="#product">Product</a>
         </li>
         <li>
-          <a href="#benefit">Benefits</a>
+          <a href="#benefits">Benefits</a>
         </li>
         <li>
-          <a href="#testimonial">Testimonials</a>
+          <a href="#testimonials">Testimonials</a>
         </li>
         <li>
           <a href="#buy-now">Buy Now</a>
@@ -32,7 +32,7 @@ export default function Navbar() {
   )
 
   return (
-    <nav className="w-full relative">
+    <nav className="w-full fixed top-0 left-0 right-0 bg-pink">
       <div className="max-w-6xl flex items-center justify-between py-8 px-4 mx-auto">
         <img src="/assets/cake-logo-navbar.png" alt="cake logo" />
         <div
@@ -53,10 +53,10 @@ export default function Navbar() {
             <a href="#product">Product</a>
           </li>
           <li>
-            <a href="#benefit">Benefits</a>
+            <a href="#benefits">Benefits</a>
           </li>
           <li>
-            <a href="#testimonial">Testimonials</a>
+            <a href="#testimonials">Testimonials</a>
           </li>
           <li>
             <a href="#buy-now">Buy Now</a>

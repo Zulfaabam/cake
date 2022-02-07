@@ -1,12 +1,11 @@
 import React from 'react'
-import Navbar from './Navbar'
+
 import SectionTitle from './SectionTitle'
 
 export default function Hero() {
   return (
-    <section className="bg-pink pb-20 xl:pb-40" id="hero">
-      <Navbar />
-      <div className="max-w-6xl mx-auto mt-12 xl:mt-32 px-4 flex flex-col md:flex-row items-center justify-center gap-4 xl:gap-24">
+    <section className="bg-pink py-20 xl:pt-32 xl:pb-40" id="hero">
+      <div className="max-w-6xl mx-auto mt-12 xl:mt-20 px-4 flex flex-col md:flex-row items-center justify-center gap-4 xl:gap-24">
         <img
           src="/assets/cake-hero.png"
           alt="cake hero"
